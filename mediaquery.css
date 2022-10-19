@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1140px) {
+
+  .icons {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (maxwidth: 960px) {
+
+  .footer-row p, .footer-row .icons {
+    text-align: center;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+}

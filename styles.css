@@ -1,0 +1,378 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: darkgray;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #FFA500;
+}
+
+#navbar {
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 80%;
+}
+
+.container-fluid a:hover {
+  color: #FFA500;
+}
+
+.container-fluid ul {
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+}
+
+.account-image {
+  height: 30px;
+  text-align: unset;
+}
+
+.nav-breadcrumb {
+  --bs-breadcrumb-divider: "➜";
+}
+
+#banner {
+  background-image: url("https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  height: 230px;
+  position: relative;
+  z-index: -1;
+  top: 100px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  height: inherit;
+}
+
+.banner-text {
+  color: #FFFFFF;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 75px;
+}
+
+#about {
+  margin: 12rem auto 6rem auto;
+}
+
+.about-us {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#about img {
+  width: 60%;
+}
+
+.about-title {
+  color: #FFA500;
+}
+
+.about-h1 {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.about-p {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #FFA500;
+  padding: 1rem 2rem;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.banner {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#work {
+  background-color: #FAF7FE;
+  padding: 6rem 0;
+}
+
+.row {
+  width: 100%;
+}
+
+.why-work {
+  color: #FFA500;
+}
+
+.work-h1 {
+  color: #000000;
+}
+
+.col-lg-6, .col {
+  width: 37.5%;
+}
+
+.learn-more {
+  margin-top: 1.5rem;
+}
+
+#milestones {
+  padding: 6rem 0;
+}
+
+#milestones .col-6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tower {
+  border-radius: 10px;
+}
+
+.ashesi {
+}
+
+#milestones {
+  text-align: center;
+}
+
+#milestones h1 {
+  color: #000000;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+#milestones strong {
+  color: #FFA500;
+}
+
+#milestones h3 {
+  color: #000000;
+  font-weight: 700;
+}
+
+#banner2 {
+  background-image: url(images/banner3.jpg);
+  background-position: center;
+  height: 200px;
+}
+
+#banner2 .overlay2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: inherit;
+}
+
+#team {
+  padding: 6rem 0;
+}
+
+#team h1 {
+  color: #000000;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.member1 {
+  background-image: url(images/member1.webp);
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+  height: 300px;
+  margin-right: 0.5rem;
+  width: 300px;
+}
+
+.member2 {
+  background-image: url(images/member2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 300px;
+  margin-left: 0.5rem;
+  width: 300px;
+}
+
+.team-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: inherit;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.overlay-text1 {
+  position: relative;
+  top: 205px;
+}
+
+.overlay-text2 {
+  position: relative;
+  top: 180px;
+}
+
+#contact {
+  padding: 6rem 0;
+}
+
+#contact h1, h5 {
+  color: #000000;
+}
+
+#contact .row {
+  width: 100%;
+}
+
+#contact .touch {
+  width: 85%;
+}
+
+#contact input, textarea {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 1.5rem;
+  padding: 12px 0 12px 17px;
+  width: 100%;
+}
+
+::placeholder {
+  color: darkgray;
+  font-size: 14px;
+}
+
+.right-aligned-btn {
+  text-align: right;
+}
+
+#footer {
+  background-color: #FAF7FE;
+  padding: 6rem 0;
+}
+
+.outer-row {
+  width: 75%;
+}
+
+#footer h5 {
+  margin-bottom: 1.5rem;
+}
+
+#footer p {
+  margin-bottom: 0.5rem;
+}
+
+#footer .btn {
+  border-radius: 5px;
+}
+
+.input-container {
+  background-color: #FFFFFF;
+  height: 150px;
+  width: 60%;
+}
+
+.input-group {
+  font-size: 12px;
+  position: relative;
+  top: 2.5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter .form-control, .btn-warning {
+  font-size: 12px;
+  border-color: orange;
+}
+
+.btn-warning {
+  padding: 15px 12px;
+}
+
+.substack-container {
+  width: 90%;
+  margin-top: 4.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.substack-container img {
+  width: 80px;
+  height: 14px;
+  float: right;
+}
+
+.newsletter ::placeholder {
+  color: gray;
+  font-size: 12px;
+}
+
+hr {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+
+#footer .footer-row {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+#footer .footer-a {
+  color: #000000;
+}
+
+#footer .footer-a:hover {
+  color: #FFA500;
+}
+
+.icons {
+  color: #000000;
+}
+
+.icons i {
+  margin-left: 1rem;
+  padding: 1px;
+}
+
+.icons a {
+  color: #000000;
+}
+
+.icons a:hover {
+  color: #FFA500;
+}
